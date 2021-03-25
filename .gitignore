@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+.idea/.gitignore
+.idea/djangotest.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
