@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>选择要投票的问题</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+    <!--    <link href="https://cdn.bootcss.com/bulma/0.7.4/css/bulma.min.css" rel="stylesheet">-->
 </head>
 <body>
-
 {% if latest_question_list %}
 <ul>
     {% for question in latest_question_list %}

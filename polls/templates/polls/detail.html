@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>问题详情</title>
+    <link href="https://cdn.bootcss.com/bulma/0.7.4/css/bulma.min.css" rel="stylesheet">
 </head>
 <body>
 <h1>{{ question.question_text }}</h1>
@@ -16,6 +17,7 @@
     <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
     {% endfor %}
     <input type="submit" value="Vote">
+    <!--    <input class="input is-danger  is-normal" width="10%" size="18" type="submit" value="Vote">-->
 </form>
 </body>
 </html>
